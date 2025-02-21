@@ -1,0 +1,119 @@
+:root{
+    --font1:"Jost", serif;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        gap: 15px; 
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        gap: 60px !important;
+    }
+}
+
+.navbar {
+    background: linear-gradient(to right, #6a0dad, #9b30ff) !important;
+}
+
+.nav-link {
+    font-family: "Jost", serif !important;
+    font-size: 20px;
+    color: white;
+}
+.table-section{
+    font-family: var(--font1);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+
+
+.modal-close-btn {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.modal input {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.table th, .table td {
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 14px;
+    }
+    .modal-content {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+thead.table-head th {
+    background-color: #493d9e !important;
+    color: white !important;
+}
+
+
+@media (max-width: 576px) {
+    .table {
+        font-size: 12px;
+    }
+    .btn-sm {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+.modal-header {
+    font-weight: bold;
+}
+
+/* ***********************************mark */
+.custom-dropdown input {
+    cursor: pointer;
+    box-shadow: none !important;
+    border: 1px solid #ced4da; 
+    padding-right: 10px; 
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    display: none;
+}
+.custom-dropdown .dropdown-menu .dropdown-item:hover,
+.custom-dropdown .dropdown-menu .dropdown-item:focus {
+    background: linear-gradient(to right, #6a0dad, #9b30ff) !important;
+    color: white !important; 
+}
